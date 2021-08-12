@@ -116,6 +116,7 @@ Setting the environment variable in the shell like this will allow the docker cl
 
 Run the following command to start the docker container with the current environment variable. [see](https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables--e---env---env-file)
 
-```
+```bash
  docker run -e APPLICATIONINSIGHTS_CONNECTION_STRING app-insights
 ```
+
