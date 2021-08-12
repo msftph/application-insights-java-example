@@ -117,6 +117,9 @@ Setting the environment variable in the shell like this will allow the docker cl
 Run the following command to start the docker container with the current environment variable. [see](https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables--e---env---env-file)
 
 ```bash
- docker run -e APPLICATIONINSIGHTS_CONNECTION_STRING app-insights
+ docker run -e APPLICATIONINSIGHTS_CONNECTION_STRING -p 8080:8080 app-insights
 ```
 
+## Step 9: Look in logs analytics workspace
+
+Go to your log analtyics workspace and view the logs https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/nodejs-virtual-machine-vm/azure-monitor-application-insights-logs#view-application-traces-in-azure-portal
