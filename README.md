@@ -81,7 +81,7 @@ When the container starts up, the application insights in process agent will loo
 Add ARG for configuring application insights in order to avoid persisting the connection string in the final image
 
 ```Dockerfile
-ENV APPLICATIONINSIGHTS_CONNECTION_STRING=
+ARG APPLICATIONINSIGHTS_CONNECTION_STRING
 ```
 
 Build the container from the same folder as the Dockerfile
