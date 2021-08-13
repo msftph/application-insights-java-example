@@ -1,4 +1,4 @@
-# Application Insights Java Example Using Standalone Agent
+# Application Insights Java Example Using In-Process Agent
 
 This example project is based off the documentation here: https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent
 
