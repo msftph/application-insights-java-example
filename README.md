@@ -92,7 +92,7 @@ docker build . -t app-insights-demo
 
 **Optional Step 5a**
 
-Using multi stage containers, we can automate this step for the Dockerfile build. Without the multi stage containers, the application will need to be built first and then you can run `docker build`. Using multi-stage containres the build of the application happens within a build phase and then only the build artifacts are copied to a streamlined version of the contaienr with only runtime dependencies. 
+Using multi stage containers, we can automate this step for the Dockerfile build. Without the multi stage containers, the application will need to be built first and then you can run `docker build`. Using multi-stage containers the build of the application happens within a build phase and then only the build artifacts are copied to a streamlined version of the container with only runtime dependencies. 
 
 ## Step 6: Create Log Analytics Workspace
 
